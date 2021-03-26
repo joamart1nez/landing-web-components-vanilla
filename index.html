@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Web Components</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header-component></header-component>
+  <welcome-component path="./assets/background-welcome.jpg" title="The gift of happiness"
+    content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sit repudiandae illo consequatur sed aut deleniti totam ducimus nam quis?">
+  </welcome-component>
+  <main>
+    <card-component title="Ready for summer </br> collection"
+      content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga numquam blanditiis, explicabo molestias fugit alias?"
+      img="./assets/summer-clothes.jpg">
+    </card-component>
+    <card-component title="Ready for autumn </br> collection"
+      content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga numquam blanditiis, explicabo molestias fugit alias?"
+      img="./assets/autumn-clothes.jpg">
+    </card-component>
+  </main>
+</body>
+<script src="./components/Header.js" type="module"></script>
+<script src="./components/Welcome.js" type="module"></script>
+<script src="./components/Cards.js" type="module"></script>
+
+</html>
